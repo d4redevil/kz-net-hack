@@ -44,7 +44,8 @@ def intel_gathering():
 
     attacker_ip = ip_found[2]
 
-    print(f"----{router_ip}----is Your Router Ip \n----{attacker_ip}---- is Attacker IP or Your IP \n----{working_interface}----is your Currently Working interface")
+    print(f"----{router_ip}----is Your Router Ip \n----{attacker_ip}---- is Attacker IP or Your IP )
+    print(f"----{working_interface}----is your Currently Working interface")
 
     # nmap scanning is called
     scan_result = scanner.nmap_scan(f"{router_ip}/24")
