@@ -11,7 +11,7 @@ def sniff_and(packet):
         if packet.haslayer(scapy.Raw):
             print(packet.show())
 while True:
-    packet_sniffer_func("wlxd03745b5e842")
+    packet_sniffer_func(str(input("> Enter A Interface Name to select:"))
 
 
 
