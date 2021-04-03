@@ -1,5 +1,5 @@
-kz-net-hack
-============
+**kz-net-hack**
+=
 
 **kn-net-hack** is a Python based hacking tool. 
 
@@ -7,23 +7,51 @@ kz-net-hack
 
 
 **PYTHON SCRIPTS**
------
+=
 
 ***ARP-SPOOFER***  - arp_spoofer.py help you to automate Reconnaissance Using NMAP and Helps you in finding your target. Once the target is found and chosen. 
 It Will continuously spoof your target and Router Untill You interupt.
 
 PREREQUISITE 
-------
+-
 
 ***NMAP SCANNER*** - To Perform Good Reconnaissance.
+
+**Debian or ubuntu Based LINUX** - sudo apt update && sudo apt install nmap
+
+**RHEL, Fedora or Centos LINUX** - sudo apt update && sudo yum install nmap
+
+USAGE:
+-
+
+**Debian or ubuntu Based LINUX**
+su -
+sudo python3 arp_spoofer.py
+
+**RHEL, Fedora or Centos LINUX** 
+su -
+sudo python3 arp_spoofer.py
+
+NOTE: Make Sure you are in root user. Since IP Forward file has to be accessed.
 
 ------------------------------------------------
 
 ***MAC SPOOFER*** - A Mac spoofer which Works by passing Arguments. It can only support on linux.
 
+PREREQUISITE
+-
+
+***Net-Tools*** - To Spoof Mac Address.
+
+
+**Debian or ubuntu Based LINUX** - sudo apt update && sudo apt install net-tools
+
+**RHEL, Fedora or Centos LINUX** - sudo apt update && sudo yum install net-tools
+
+
 USAGE:
------
-python3 macspoofer.py --interface INTERFACE --mac NEW_MAC 
+-
+sudo python3 macspoofer.py --interface INTERFACE --mac NEW_MAC 
 
 #INTERFACE - specify the interface name to which you wanna change mac. Example:wlan0,eth0
 #NEW_MAC - Specify a New Mac to spoof. Example: 00:00:00:00:00:00
