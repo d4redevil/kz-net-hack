@@ -85,7 +85,6 @@ For Help:
 
 ```
 python3 macspoofer.py --help
-
 ```
 
 NOTE:Make Sure that you use a Even number on the 1st OCTET & MAC ADDRESS is in COLEN-HEXADECIMAL-NOTATION
