@@ -20,7 +20,7 @@ PREREQUISITE
 **Debian or ubuntu Based LINUX** 
 
 ```
- sudo apt update && sudo apt install nmap
+sudo apt update && sudo apt install nmap
 ```
 
 **RHEL, Fedora or Centos LINUX** 
