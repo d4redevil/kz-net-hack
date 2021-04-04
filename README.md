@@ -17,20 +17,34 @@ PREREQUISITE
 
 ***NMAP SCANNER*** - To Perform Good Reconnaissance.
 
-**Debian or ubuntu Based LINUX** - sudo apt update && sudo apt install nmap
+**Debian or ubuntu Based LINUX** 
 
-**RHEL, Fedora or Centos LINUX** - sudo apt update && sudo yum install nmap
+```
+ sudo apt update && sudo apt install nmap
+```
+
+**RHEL, Fedora or Centos LINUX** 
+
+```
+sudo apt update && sudo yum install nmap
+```
 
 USAGE:
 -
 
 **Debian or ubuntu Based LINUX**
+
+```
 su -
 sudo python3 arp_spoofer.py
+```
 
 **RHEL, Fedora or Centos LINUX** 
+
+```
 su -
 sudo python3 arp_spoofer.py
+```
 
 NOTE: Make Sure you are in root user. Since IP Forward file has to be accessed.
 
@@ -44,19 +58,35 @@ PREREQUISITE
 ***Net-Tools*** - To Spoof Mac Address.
 
 
-**Debian or ubuntu Based LINUX** - sudo apt update && sudo apt install net-tools
+**Debian or ubuntu Based LINUX** 
 
-**RHEL, Fedora or Centos LINUX** - sudo apt update && sudo yum install net-tools
+```
+sudo apt update && sudo apt install net-tools
+```
 
+**RHEL, Fedora or Centos LINUX**
+
+```
+sudo apt update && sudo yum install net-tools
+```
 
 USAGE:
 -
+
+```
 sudo python3 macspoofer.py --interface INTERFACE --mac NEW_MAC 
+```
 
 #INTERFACE - specify the interface name to which you wanna change mac. Example:wlan0,eth0
 #NEW_MAC - Specify a New Mac to spoof. Example: 00:00:00:00:00:00
 
+For Help:
+-
+
+```
 python3 macspoofer.py --help
+
+```
 
 NOTE:Make Sure that you use a Even number on the 1st OCTET & MAC ADDRESS is in COLEN-HEXADECIMAL-NOTATION
 
