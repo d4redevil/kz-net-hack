@@ -5,13 +5,6 @@ import os
 import subprocess
 import re
 
-# global victim_ip
-# global victim_mac
-# global router_ip
-# global attacker_ip
-# global router_mac
-# global packet_counter
-
 victim_ip=None
 victim_mac=None
 router_ip=None
